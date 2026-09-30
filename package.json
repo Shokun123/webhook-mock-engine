@@ -1,0 +1,26 @@
+{
+  "name": "webhook-mock-engine",
+  "version": "1.0.0",
+  "description": "Zero-dependency local webhook receiver, request inspector, and automated TypeScript type generator.",
+  "main": "src/server.js",
+  "type": "module",
+  "bin": {
+    "webhook-mock": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/server.test.js"
+  },
+  "keywords": [
+    "webhook",
+    "mock",
+    "testing",
+    "stripe",
+    "binance-pay",
+    "developer-tools",
+    "typescript",
+    "http-inspector"
+  ],
+  "author": "Shokun123",
+  "license": "MIT"
+}
